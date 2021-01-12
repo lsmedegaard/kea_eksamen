@@ -43,7 +43,7 @@ header {
     right: 0;
     width: 400px;
     height: 100vh;
-    background: #6c777a;
+    background: #f0f0f0;
     z-index: -1;
     place-items: center;
     transition: 0.5s;

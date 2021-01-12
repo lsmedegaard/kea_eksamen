@@ -25,6 +25,8 @@ main {
 
 section {
     margin: 60px 0;
+    background: #f0f0f0;
+    border-radius: 20px;
 }
 
 #first_section {
@@ -37,6 +39,7 @@ h2, h3 {
 
 h2 {
     margin-bottom: 15px;
+    padding-top: 20px;
 }
 
 h3 {
@@ -54,6 +57,9 @@ h3 {
     gap: 20px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-bottom: 20px;
 }
 
 .image_container figure {
@@ -67,6 +73,7 @@ h3 {
     padding: 15px;
     background: #fff;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .button_container {
@@ -99,11 +106,33 @@ h3 {
 
 .tekst_container {
     margin-bottom: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 .button_container {
     margin-top: 20px;
+    margin-bottom: 200px;
 }
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+
+a:active {
+    color: black;
+}
+
 
 @media (max-width: 767px) {
     header, main {
@@ -116,6 +145,7 @@ h3 {
     .image_container {
         grid-gap: 0;
         padding: 0;
+        padding-bottom: 20px
     }
 
     #second_section .row {
